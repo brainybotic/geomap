@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "count": 10
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.0.0.92"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.006,
+          40.7128
+        ]
+      },
+      "id": "3c250c19-e46f-4bb6-a262-5ac7869cc79e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.0.0.95"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
+      },
+      "id": "e9f30cc8-e79c-433e-af76-9c01b00e3070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.0.0.96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      },
+      "id": "8e173f34-d749-411f-9f36-4893b8e8f7e7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.0.0.91"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "id": "9d05b84c-4b74-485a-9115-6fd342a9d683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "10.0.0.94"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ]
+      },
+      "id": "1f131ca9-d4b1-438d-8f77-1d0c98a8e544"
+    }
+  ]
+}

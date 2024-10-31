@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cinel\CET93 - GeoMap</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="lib/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    ></script>
+    <script type="text/javascript" src="lib/leaflet-realtime.js"></script>
+    <script type="text/javascript" src="lib/script.js"></script>
+    <label>Choose source file: </label>
+
+    <!--
+    <select id="sel">
+      <option value="2.5_hour">2.5_hour</option>
+      <option value="all_hour">all_hour</option>
+    </select>
+    <br />
+    realtime is running: <span id="is_running"></span>
+    -->
+
+    <script>
+       realtime.setUrl("http://127.0.0.1:5500/geodata.geojson");
+//      let sel = document.getElementById("sel");
+//      sel.addEventListener("change", function () {
+//        realtime.setUrl("http://127.0.0.1:5500/geodata.geojson");
+//      });
+    </script>
+  </body>
+</html>
